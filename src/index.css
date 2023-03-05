@@ -12,15 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  background-image: url('https://img.freepik.com/free-vector/programmer-s-workplace-writing-code-laptop_80328-238.jpg?w=2000&t=st=1677998988~exp=1677999588~hmac=dd4365602f29b05a2749fee16d212d8945de69d9bebb365a89eca6a89f696611');
 }
 
 body {
@@ -32,20 +25,28 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  color: rgb(248, 90, 72);
+  font-size: 3em;
   line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.1;
+  color: #242424;
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.8em 1.6em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 5px;
 }
 button:hover {
   border-color: #646cff;
