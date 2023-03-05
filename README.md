@@ -2,8 +2,7 @@
 
 Submitted by: **Loc Tran**
 
-This web app: **For flashcards! Pairs of items stored in a flashcard-like format that users can then use to learn something new or play a guessing game about Computer Scienc knowledge. Users will be able to study cards in a randomized order.
-**
+This web app: **For flashcards! Pairs of items stored in a flashcard-like format that users can then use to learn something new or play a guessing game about Computer Scienc knowledge. Users will be able to study cards in a randomized order.**
 
 Time spent: **5** hours spent in total
 
