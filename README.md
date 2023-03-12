@@ -1,26 +1,26 @@
-# Web Development Project 2 - *CS FlashQuiz*
+# Web Development Project 3 - *Flash Card 2*
 
 Submitted by: **Loc Tran**
 
-This web app: **For flashcards! Pairs of items stored in a flashcard-like format that users can then use to learn something new or play a guessing game about Computer Scienc knowledge. Users will be able to study cards in a randomized order.**
+This web app: **An update of FlashCard project in which the user can enter their guess to check if the answer is correct or wrong**
 
-Time spent: **5** hours spent in total
+Time spent: **3.5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [x] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [ ] A shuffle button is used to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -28,16 +28,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/KhyfW2r.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/uwZVoUj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-The hardest challenge encountered while building the app is trying to display only one card at a time and proceed to next card when a button is hit. Also, even if the goal has been accomplised, there was still a problem where the next cards don't flip back to the front. This was when a little configuration should be done so as all the cards could flip back to the question state when the user chooses next card.
+The most difficult challenge run into during building this additional feature is illustrating how the answer form will operate that it can handle input from user as well as passing that input to a function to check its correctness. Also, the `streak` and `maxStreak` variables did not update synchronously, which cost me an amount of time trying to figure out how to update them simultaneously by ***callback*** function. Thanks to the lab provided for this unit, I successfully finished the project by a huge concept and intuition borrow from it
 
 ## License
 
