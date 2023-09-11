@@ -1,4 +1,4 @@
-# Web Development Project - *Flash Card 2*
+# Web Development Project - *Flash Card*
 
 By: **Loc Tran**
 
