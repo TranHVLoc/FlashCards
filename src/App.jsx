@@ -8,7 +8,7 @@ import Card from './components/Card'
 // for each card. We then use `card` props to pass the question and answer to Card component
 import CardInfo from './components/cards-info.json'
 
-const App = ({ card }) => {
+const App = () => {
 
   // Input from user
   const [input, setInput] = useState('')
